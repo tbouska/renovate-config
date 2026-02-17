@@ -1,0 +1,28 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":automergeMinor",
+    ":automergePatch"
+  ],
+  "automergeType": "pr",
+  "automergeStrategy": "rebase-merge",
+  "packageRules": [
+    {
+      "matchManagers": ["uv"],
+      "rangeStrategy": "update-lockfile"
+    },
+    {
+      "matchDepTypes": ["action"],
+      "automerge": true
+    },
+    {
+      "matchPackageNames": ["python"],
+      "matchManagers": ["pep621"],
+      "enabled": false
+    }
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  }
+}
