@@ -5,6 +5,7 @@
     ":automergeMinor",
     ":automergePatch"
   ],
+  "dependencyDashboard": false,
   "automergeType": "platform",
   "packageRules": [
     {
