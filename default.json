@@ -5,8 +5,7 @@
     ":automergeMinor",
     ":automergePatch"
   ],
-  "automergeType": "pr",
-  "automergeStrategy": "rebase-merge",
+  "automergeType": "platform",
   "packageRules": [
     {
       "matchManagers": ["uv"],
