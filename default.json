@@ -20,6 +20,10 @@
       "matchPackageNames": ["python"],
       "matchManagers": ["pep621"],
       "enabled": false
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "all non-major dependencies"
     }
   ],
   "lockFileMaintenance": {
