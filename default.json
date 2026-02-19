@@ -4,7 +4,8 @@
     "config:best-practices",
     ":automergeDigest",
     ":automergeMinor",
-    ":automergePatch"
+    ":automergePatch",
+    ":automergePin"
   ],
   "dependencyDashboard": false,
   "automergeType": "platform",
