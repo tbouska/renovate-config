@@ -4,8 +4,7 @@
     "config:best-practices",
     ":automergeDigest",
     ":automergeMinor",
-    ":automergePatch",
-    ":automergePin"
+    ":automergePatch"
   ],
   "dependencyDashboard": false,
   "automergeType": "platform",
@@ -26,6 +25,10 @@
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "groupName": "all non-major dependencies"
+    },
+    {
+      "matchUpdateTypes": ["pin"],
+      "automerge": true
     }
   ],
   "lockFileMaintenance": {
