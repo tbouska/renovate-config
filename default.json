@@ -7,7 +7,6 @@
     ":automergePatch"
   ],
   "dependencyDashboard": false,
-  "automergeType": "platform",
   "packageRules": [
     {
       "matchManagers": ["uv"],
