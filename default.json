@@ -26,7 +26,7 @@
       "groupName": "all non-major dependencies"
     },
     {
-      "matchUpdateTypes": ["pin"],
+      "matchUpdateTypes": ["pin", "pinDigest"],
       "automerge": true
     }
   ],
